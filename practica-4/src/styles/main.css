@@ -1,0 +1,108 @@
+/* .focus {
+  background-color: #ccc;
+  font-weight: bold;
+}
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+#register-form {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#register-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#register-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#register-form button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#register-form button:hover {
+  background-color: #0056b3;
+}
+
+small {
+  color: red;
+}
+
+p#succeed {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+#estructura {
+  width: 250px;
+  height: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#b1,
+#b2,
+#b3 {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+}
+
+.apagada {
+  background-color: black;
+}
+
+.verde {
+  background-color: green;
+}
+
+.naranja {
+  background-color: orange;
+}
+
+.rojo {
+  background-color: red;
+}
