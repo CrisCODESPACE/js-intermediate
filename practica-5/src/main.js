@@ -101,30 +101,30 @@ const groupUsers = newArray.reduce(
 
 // PETICIONES HTTP
 
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log("server answer:", data);
-  })
-  .catch((error) => {
-    console.error("request error", error);
-  });
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     console.log("server answer:", data);
+//   })
+//   .catch((error) => {
+//     console.error("request error", error);
+//   });
 
 // AYSNC AWAIT
 
-async function getAllPosts() {
-  try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+// async function getAllPosts() {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/posts");
 
-    const data = await response.json();
+//     const data = await response.json();
 
-    console.log(data);
-  } catch (error) {
-    console.error(error);
-  }
-}
+//     console.log(data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
 
-getAllPosts();
+// getAllPosts();
 
 // Fake syncronous request
 
@@ -151,6 +151,7 @@ async function getAPokemon() {
     }
 
     const data = await response.json();
+    console.log(data);
 
     console.log(data);
   } catch (error) {
