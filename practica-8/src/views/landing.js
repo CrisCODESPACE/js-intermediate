@@ -30,6 +30,8 @@ export async function Landing() {
       console.log(user);
 
       user.shopping_cart.push(product);
+
+      // TODO traer funcion para editar el user.
     });
 
     card.appendChild(button);
