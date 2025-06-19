@@ -1,0 +1,41 @@
+/* Encabezado */
+#header {
+  background-color: #1f1f1f;
+  padding: 1.3rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+/* Barra de navegación */
+#header-navbar {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+/* Enlaces de navegación */
+#header-navbar a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#header-navbar a:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#header-navbar a svg {
+  width: 1.5em;
+  fill: white;
+  stroke: white;
+}
+
+#header-navbar a:hover {
+  color: #00adb5;
+}

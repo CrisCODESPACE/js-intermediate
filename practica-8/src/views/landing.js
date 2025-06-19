@@ -31,7 +31,7 @@ export async function Landing() {
 
       user.shopping_cart.push(product);
 
-      // TODO traer funcion para editar el user.
+      // TODO traer funcion para editar el user y añadir el producto al carrito.
     });
 
     card.appendChild(button);
