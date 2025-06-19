@@ -1,0 +1,61 @@
+/* Contenedor general de las cards */
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Estilo base de cada card */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #f0f0f0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto hover para realce */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Imagen de la película */
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Título */
+.card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Fecha de lanzamiento */
+.card p {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin: 0.5rem 0;
+}
+
+/* Botón de favorito */
+.card button {
+  background-color: #00adb5;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #007f85;
+}
