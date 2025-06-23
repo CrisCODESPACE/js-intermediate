@@ -8,7 +8,7 @@ async function showMovies() {
   container.setAttribute("id", "container");
   app.appendChild(container);
 
-  let movies = await getAllMovies();
+  let movies = await getAllMovies(3);
   movies = movies.results;
   console.log(movies);
 

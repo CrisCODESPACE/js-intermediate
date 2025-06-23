@@ -3,8 +3,8 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 
 // req movies
 
-export async function getAllMovies() {
-  const url = `${baseMoviesUrl}/popular?api_key=${API_KEY}`;
+export async function getAllMovies(page) {
+  const url = `${baseMoviesUrl}/popular?api_key=${API_KEY}&page=${page}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
